@@ -2,37 +2,247 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+display: flex;
+flex-direction: column;
+background-color: darkslategrey;
+color: aliceblue;
+align-items: center;
+justify-content: center;
+text-shadow: -3px -3px 3px rgb(83, 81, 81);
+position: sticky;
+}
+.subHead{
+ text-align: center;
+ color: black;
+ text-transform:uppercase;
+}
+.main{
   display: flex;
   flex-direction: column;
+ align-items: center;
+   height: 100vh;
+}
+.colors{
+  display: flex;
+  flex-direction: row;
   align-items: center;
+  flex-wrap: wrap;
+  overflow-y: scroll;
+ 
+  
+}
+.color{
+  display: flex;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
+  width: 200px;
+  height: 100px;
+  box-shadow: 5px 5px 5px grey,-5px -5px 5px grey;
+  border-radius: 20px;
+  padding: 10px;
+ margin: 10px;
+ font-weight: 700;
+ font-size: 20px;
+ cursor: pointer;
+}
+.red{
+  background-color: red;
+  color: black;
+
+}
+.red:hover{
+color: white;
+
+transition: 0.3s ease-in-out;
+transform: scale(1.0009);
+}
+.green{
+  background-color: green;
+  color: black;
+
+}
+.green:hover{
+color: white;
+
+transition: 0.3s ease-in-out;
+transform: scale(1.0009);
+}
+.blue{
+  background-color: blue;
+  color: black;
+
+}
+.blue:hover{
+color: white;
+
+transition: 0.3s ease-in-out;
+transform: scale(1.0009);
+}
+.violet{
+  background-color: violet;
+  color: black;
+
+}
+.violet:hover{
+color: white;
+
+transition: 0.3s ease-in-out;
+transform: scale(1.0009);
+}
+.grey{
+  background-color:grey;
+  color: black;
+
+}
+.grey:hover{
+color: white;
+
+transition: 0.3s ease-in-out;
+transform: scale(1.0009);
+}
+.yellow{
+  background-color:yellow;
+  color: black;
+
+}
+.yellow:hover{
+color: white;
+
+transition: 0.3s ease-in-out;
+transform: scale(1.0009);
+}
+.orange{
+  background-color:orange;
+  color: black;
+
+}
+.orange:hover{
+color: white;
+
+transition: 0.3s ease-in-out;
+transform: scale(1.0009);
+}
+.purple{
+  background-color:purple;
+  color: black;
+
+}
+.purple:hover{
+color: white;
+
+transition: 0.3s ease-in-out;
+transform: scale(1.0009);
+}
+.magenta{
+  background-color:magenta;
+  color: black;
+
+}
+.magenta:hover{
+color: white;
+
+transition: 0.3s ease-in-out;
+transform: scale(1.0009);
+}
+.palegreen{
+  background-color:palegreen;
+  color: black;
+
+}
+.palegreen:hover{
+color: white;
+
+transition: 0.3s ease-in-out;
+transform: scale(1.0009);
+}
+.maroon{
+  background-color:maroon;
+  color: black;
+
+}
+.maroon:hover{
+color: white;
+
+transition: 0.3s ease-in-out;
+transform: scale(1.0009);
+}
+.skyblue{
+  background-color:skyblue;
+  color: black;
+
+}
+.skyblue:hover{
+color: white;
+
+transition: 0.3s ease-in-out;
+transform: scale(1.0009);
+}
+.brown{
+  background-color:brown;
+  color: black;
+
+}
+.brown:hover{
+color: white;
+
+transition: 0.3s ease-in-out;
+transform: scale(1.0009);
+}
+.silver{
+  background-color:silver;
+  color: black;
+
+}
+.silver:hover{
+color: white;
+
+transition: 0.3s ease-in-out;
+transform: scale(1.0009);
+}
+.gold{
+  background-color:goldenrod;
+  color: black;
+
+}
+.gold:hover{
+color: white;
+
+transition: 0.3s ease-in-out;
+transform: scale(1.0009);
+}
+.aqua{
+  background-color:aqua;
+  color: black;
+
+}
+.aqua:hover{
+color: white;
+
+transition: 0.3s ease-in-out;
+transform: scale(1.0009);
+}
+.pink{
+  background-color:pink;
+  color: black;
+
+}
+.pink:hover{
+color: white;
+
+transition: 0.3s ease-in-out;
+transform: scale(1.0009);
+}
+.yellowGreen{
+  background-color:yellowGreen;
+  color: black;
+
+}
+.yellowGreen:hover{
+color: white;
+
+transition: 0.3s ease-in-out;
+transform: scale(1.0009);
 }
 
-.App-link {
-  color: #61dafb;
-}
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
